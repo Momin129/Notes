@@ -1,1 +1,8 @@
-First File Test
+Q: What is database sharding?
+Ans: Database sharding refers to storing large databases accross multiple devices. A single database can only handle limited amount of data. Database sahrding overcomes this barier by splitting data into small sections called shards and storing accross multiple devices called database nodes. All node generally have the same undelying technology.
+
+Q: Why is datbase sharding important?
+Ans: As application grows the number of users increase which leads to increase in data in database and it becomes a bottleneck when too many users try read write operations, this may slow the user exprerience. Database sharding helps solve this problem as it enables prallel processing of smaller datasets across the shards.
+
+Q: Benifits of database Sahrding?
+Ans: Imporves response time, avoid total service outage, scale efficiently(as when reached maximum limit a new shard can be introduced)
