@@ -6,3 +6,7 @@ Ans: As application grows the number of users increase which leads to increase i
 
 Q: Benifits of database Sahrding?
 Ans: Imporves response time, avoid total service outage, scale efficiently(as when reached maximum limit a new shard can be introduced)
+
+
+Q:what is index and its types in database context?
+Ans: indexing is data structure technique which allows to quickly retrieve data from database file. An index consits of only two columns, the first comprises of the primay or candidate key of a table and the second columns comprises of a pointer to the address of the disk block store the key value.
